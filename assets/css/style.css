@@ -2,6 +2,18 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a { 
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+a:hover {
+	color: dodgerblue;
+	font-size: 19px;
 }
 
 .container {
@@ -27,12 +39,13 @@ body {
 .info {
 	margin-top: 30px; 
 	width: 230px;
+	font-weight: 300;
 }
 
 .info > p {
-	font-size: 15px;
+	font-size: 16px;
 	color: white;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	line-height: 18px;
 }
 
