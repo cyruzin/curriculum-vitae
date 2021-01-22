@@ -141,26 +141,6 @@ body {
 	}
 }
 
-@media (min-width:481px)  {  
-  .container {
-	 display: flex;
-	 flex-direction: column;
-	}
-	
-	.info {
-		width: auto;
-		text-align: center;
-	}
-
-	.about {
-		width: auto;
-	}
-
-	.content-wrapper { 
-		width: auto;
-	}
-}
-
 @media (min-width:1281px) {  
   .container {
 		display: grid;
@@ -191,5 +171,4 @@ body {
 	.side-menu-right { 
 		grid-column: 9 / -1;
 	}
-
 }
