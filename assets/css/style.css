@@ -154,10 +154,6 @@ a:hover {
   .content-wrapper {
     width: auto;
   }
-
-  .side-menu-right {
-    text-align: center;
-  }
 }
 
 @media (min-width: 1281px) {
@@ -189,5 +185,11 @@ a:hover {
 
   .side-menu-right {
     grid-column: 9 / -1;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .content-wrapper-right {
+    text-align: center;
   }
 }
