@@ -154,6 +154,10 @@ a:hover {
   .content-wrapper {
     width: auto;
   }
+
+  .side-menu-right {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1281px) {
