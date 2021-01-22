@@ -135,6 +135,9 @@ a:hover {
 
 
 @media (min-width:320px)  { 
+.header {
+	font-size: 48px;
+}
 	.container {
 	 display: flex;
 	 flex-direction: column;
