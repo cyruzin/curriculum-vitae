@@ -60,6 +60,19 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+}
+
+.picture:hover {
+  transform: scale(1.1);
+  border: 0;
+  border-radius: 0;
+  width: 230px;
+  height: 230px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .content {
