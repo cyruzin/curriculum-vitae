@@ -59,7 +59,7 @@ a:hover {
   font-weight: 300;
 }
 
-.info > p {
+.info>p {
   font-size: 16px;
   color: white;
   margin-bottom: 20px;
@@ -103,7 +103,7 @@ a:hover {
   width: 700px;
 }
 
-.content-wrapper > p {
+.content-wrapper>p {
   margin-top: 20px;
   text-align: justify;
   font-size: 18px;
@@ -132,7 +132,7 @@ a:hover {
   padding-top: 5px;
 }
 
-.certification > p {
+.certification>p {
   margin-top: 10px;
 }
 
@@ -151,7 +151,7 @@ a:hover {
   width: 700px;
 }
 
-.about > p {
+.about>p {
   text-align: justify;
   font-size: 18px;
   font-weight: 300;
@@ -159,8 +159,25 @@ a:hover {
   line-height: 23px;
 }
 
-.about > p:last-child {
+.about>p:last-child {
   margin-bottom: 0px;
+}
+
+.print-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.print {
+  background-color: #000;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 110px;
+  height: 40px;
 }
 
 /* Media Queries Section  */
@@ -169,6 +186,7 @@ a:hover {
   .header {
     font-size: 48px;
   }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -186,6 +204,7 @@ a:hover {
   .content-wrapper {
     width: auto;
   }
+
 }
 
 @media (min-width: 1281px) {
