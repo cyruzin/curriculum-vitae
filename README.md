@@ -6,6 +6,7 @@ I decided to create this template to make it easier when people want to see my c
 
 - HTML
 - CSS (Grid/Flebox)
+- JavaScript
 
 ## License
 
