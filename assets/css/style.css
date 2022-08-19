@@ -180,6 +180,17 @@ a:hover {
   height: 40px;
 }
 
+.contact {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  display: none;
+}
+
+.contact-link {
+  color: #999999;
+}
+
 /* Media Queries Section  */
 
 @media (min-width: 320px) {
