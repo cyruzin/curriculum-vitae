@@ -10,6 +10,7 @@ const hideMenu = () => {
   document.getElementById("side-menu-left").style.display = "none";
   document.getElementById("certifications").style.display = "none";
   document.getElementById("print").style.display = "none";
+  document.getElementById("location").style.display = "none";
   document.getElementById("contact").style.display = "block";
   window.print();
 };
@@ -23,6 +24,7 @@ const showMenu = () => {
   document.getElementById("side-menu-left").style.display = "block";
   document.getElementById("certifications").style.display = "block";
   document.getElementById("print").style.display = "block";
+  document.getElementById("location").style.display = "flex";
 };
 
 window.onafterprint = showMenu;
