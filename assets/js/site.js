@@ -27,4 +27,4 @@ const showMenu = () => {
   document.getElementById("location").style.display = "flex";
 };
 
-window.onafterprint = showMenu;
+window.addEventListener("afterprint", showMenu);
