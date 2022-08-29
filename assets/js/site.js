@@ -12,6 +12,7 @@ const hideMenu = () => {
   document.getElementById("print").style.display = "none";
   document.getElementById("location").style.display = "none";
   document.getElementById("contact").style.display = "block";
+
   window.print();
 };
 
@@ -19,12 +20,12 @@ const print = document.getElementById("print");
 
 print.addEventListener("click", hideMenu);
 
-const showMenu = setTimeout(() => {
+const showMenu = () => {
   document.getElementById("contact").style.display = "none";
   document.getElementById("side-menu-left").style.display = "block";
   document.getElementById("certifications").style.display = "block";
   document.getElementById("print").style.display = "block";
   document.getElementById("location").style.display = "flex";
-}, 100);
+};
 
-window.addEventListener("afterprint", showMenu);
+window.onafterprint = showMenu;
