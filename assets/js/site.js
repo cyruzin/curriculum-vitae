@@ -1,31 +1,35 @@
 // profile click
-const goTo = () => window.open("https://github.com/cyruzin");
-
 const profile = document.getElementById("profile");
+
+const goTo = () => window.open("https://github.com/cyruzin");
 
 profile.addEventListener("click", goTo);
 
-// print section
+// prepare the page for printing
+const print = document.getElementById("print");
+const sideMenuLeft = document.getElementById("side-menu-left");
+const certifications = document.getElementById("certifications");
+const locationFlag = document.getElementById("location");
+const contact = document.getElementById("contact");
+
 const hideMenu = () => {
-  document.getElementById("side-menu-left").style.display = "none";
-  document.getElementById("certifications").style.display = "none";
-  document.getElementById("print").style.display = "none";
-  document.getElementById("location").style.display = "none";
-  document.getElementById("contact").style.display = "block";
+  sideMenuLeft.style.display = "none";
+  certifications.style.display = "none";
+  print.style.display = "none";
+  locationFlag.style.display = "none";
+  contact.style.display = "block";
 
   window.print();
 };
 
-const print = document.getElementById("print");
+const showMenu = () => {
+  contact.style.display = "none";
+  sideMenuLeft.style.display = "block";
+  certifications.style.display = "block";
+  print.style.display = "block";
+  locationFlag.style.display = "flex";
+};
 
 print.addEventListener("click", hideMenu);
-
-const showMenu = () => {
-  document.getElementById("contact").style.display = "none";
-  document.getElementById("side-menu-left").style.display = "block";
-  document.getElementById("certifications").style.display = "block";
-  document.getElementById("print").style.display = "block";
-  document.getElementById("location").style.display = "flex";
-};
 
 window.onafterprint = showMenu;
