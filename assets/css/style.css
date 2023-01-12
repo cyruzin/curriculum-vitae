@@ -33,6 +33,11 @@ a:hover {
 	font-size: 1.188rem;
 }
 
+hr {
+	border-top: 1px dotted dimgray;
+	margin-top: 20px;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
