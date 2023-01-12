@@ -163,6 +163,10 @@ a:hover {
 	margin-bottom: 0px;
 }
 
+.about>h1 {
+	margin-bottom: 20px;
+}
+
 .print-container {
 	margin-top: 30px;
 	display: flex;
