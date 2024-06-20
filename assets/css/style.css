@@ -80,20 +80,20 @@ hr {
 	background-image: url("../img/profile.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
+	background-size: cover;
 	cursor: pointer;
 	transition: ease-in-out 0.4s;
 }
 
 .picture:hover {
-	transform: scale(1.1);
-	border: 0;
+	transform: scale(1.2);
 	border-radius: 0;
-	width: 230px;
-	height: 230px;
-	margin-top: 20px;
+	width: 300px;
+	height: 300px;
+	margin-top: 40px;
 	padding-left: 10px;
 	padding-right: 10px;
+	transform: rotate(-10deg);
 }
 
 .content {
