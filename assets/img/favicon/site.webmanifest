@@ -1,19 +1,19 @@
 {
     "icons": [
         {
-            "src": "assets/img/favicon/android-chrome-192x192.png",
+            "src": "/curriculum-vitae/assets/img/favicon/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "assets/img/favicon/android-chrome-512x512.png",
+            "src": "/curriculum-vitae/assets/img/favicon/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
     ],
     "name": "Curriculum Vitae",
     "short_name": "CV",
-    "start_url": "index.html",
+    "start_url": "/curriculum-vitae/index.html",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
